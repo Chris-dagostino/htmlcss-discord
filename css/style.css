@@ -29,7 +29,6 @@ header {
 
 header {
     height: 100px;
-    line-height: 100px;
 }
 
 .btn {
@@ -131,14 +130,14 @@ header .container nav ul li a {
 
 }
 
-h1 {
+.jumbo-text h1 {
     font-size: 50px;
 }
 
-p {
+.jumbo-text p {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
