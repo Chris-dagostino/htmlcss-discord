@@ -22,9 +22,7 @@ header {
 
 .container {
     width: 80%;
-    height: 100%;
     margin: auto;
-    max-width: 1180px;
 }
 
 header {
@@ -53,6 +51,38 @@ header {
     content: "";
     display: table;
     clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.big {
+    font-size: 35px;
+}
+
+.section {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.section .photo {
+    width: 50%;
+    float: left;
+}
+
+.section .text-photo {
+    width: 50%;
+    float: left;
+    padding-top: px;
+    
+}
+
+.section .photo img{
+    background-size: cover;
+    width: 100%;
 }
 
 
@@ -145,4 +175,30 @@ header .container nav ul li a {
     padding: 16px 50px;
     font-weight: bold;
 }
+
+
+
+/*section-4*/
+
+.centro h2{
+    text-align: center;
+}
+
+.centro p {
+    text-align: center;
+}
+
+.cont-img {
+    width: 100%;
+}
+
+.cont-img img {
+    width: 100%;
+    background-size: cover;
+}
+
+/*fine section-4*/
+
+
+
 /*fine main*/
